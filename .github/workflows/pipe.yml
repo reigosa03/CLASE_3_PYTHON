@@ -30,7 +30,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: run python
       run: |
-        python ejercicio1_stacks
-        python ejercicio2_bubblesort
+        python ejercicio1_stacks.py
+        python ejercicio2_bubblesort.py
         
   
